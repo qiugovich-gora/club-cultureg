@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Rédacteur</h2>
+
+<select id="theme">
+<option>animaux</option>
+<option>architecture</option>
+<option>art</option>
+<option>botanique</option>
+<option>cinema</option>
+<option>culture_generale</option>
+<option>gastronomie</option>
+<option>histoire</option>
+<option>celebrites</option>
+<option>litterature</option>
+<option>mythologie</option>
+<option>medias</option>
+<option>sciences</option>
+<option>medecine</option>
+<option>sport</option>
+<option>geographie</option>
+</select>
+
+<select id="difficulty">
+<option value="1">⭐</option>
+<option value="2">⭐⭐</option>
+<option value="3">⭐⭐⭐</option>
+</select>
+
+<textarea id="question"></textarea>
+<textarea id="answer"></textarea>
+
+<button onclick="addQuestion()">Ajouter</button>
+
+<script src="admin.js"></script>
+</body>
+</html>
